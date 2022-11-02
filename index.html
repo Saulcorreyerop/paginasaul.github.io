@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina Web Saul</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Saul">
+    <meta name="Description" content="Pagina web de Saul">
+    <meta name="Keywords" content="HTML,CSS">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="icons8-estrella-16.png">
+</head>
+<body>
+        <div id="container"> 
+    <header> 
+        <h1>Página web Saul</h1> 
+        <nav>
+        <ul>
+            <li>
+                <a href="index.html" title="Inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="Pagina 1.html" title="En progreso">Pagina 1</a>
+            </li>
+            <li>
+                <a href="Pagina 2.html" title="En progreso">Pagina 2</a>
+            </li>
+            <li>
+                <a href="Quienes Somos.html" title="About we">Quienes Somos</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+ <div class="clearfix"></div>
+    <section id="content">
+        <article class="article">
+                <h2>Inicio</h2>
+                <p>Página Principal</p>
+                <script>
+                    var myIndex = 0;
+                    carousel();
+                    
+                    function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("autoslide");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2500); // Change image every 2.5 seconds
+                    }
+                </script>
+        </article>
+    </section>
+    <aside>
+        <h2>Buscar</h2>
+        <form>
+            <input type="text">
+            <input type="submit" value="Buscar">
+        </form>
+    </aside>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        Saul Correyero Pañero ® 2022
+    </footer>
+</div>
+        </div>
+        <div style="display:list-item;"></div>
+</body>
+</html>
