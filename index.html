@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <title>Pagina Web Saul</title>
     <meta charset="UTF-8">
@@ -12,40 +12,43 @@
     <link rel="shortcut icon" href="icons8-estrella-16.png">
 </head>
 <body>
-        <div id="container"> 
-    <header> 
-        <h1>Página web Saul</h1> 
-        <nav>
-        <ul>
-            <li>
-                <a href="index.html" title="Inicio">Inicio</a>
-            </li>
-            <li>
-                <a href="Pagina 1.html" title="En progreso">Pagina 1</a>
-            </li>
-            <li>
-                <a href="Pagina 2.html" title="En progreso">Pagina 2</a>
-            </li>
-            <li>
-                <a href="Quienes Somos.html" title="About we">Quienes Somos</a>
-            </li>
-        </ul>
-    </nav>
-    </header>
+    <div id="container"> 
+        <header> 
+            <h1>Página web Saul</h1> 
+            <nav>
+            <ul>
+                <li>
+                    <a href="index.html" title="Inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="Pagina 1.html" title="En progreso">Pagina 1</a>
+                </li>
+                <li>
+                    <a href="Pagina 2.html" title="En progreso">Pagina 2</a>
+                </li>
+                <li>
+                    <a href="Quienes Somos.html" title="About we">Quienes Somos</a>
+                </li>
+            </ul>
+            </nav>
+        </header>
+    </div>
  <div class="clearfix"></div>
     <section id="content">
         <article class="article">
                 <h2>Inicio</h2>
                 <p>Página Principal</p>
+            <div style="display:list-item;">
+                <img class="autoslide" src="mbappe.jpeg" alt="mbappe">
+                <img class="autoslide" src="Padre.png" alt="Padre">
+            </div>
                 <script>
                     var myIndex = 0;
                     carousel();
                     
                     function carousel() {
                     var i;
-                    var x = document.do {
-	getElementsByClassName
-} while (condition);("autoslide");
+                    var x = document.getElementsByClassName("autoslide");
                     for (i = 0; i < x.length; i++) {
                         x[i].style.display = "none";  
                     }
@@ -65,11 +68,9 @@
         </form>
     </aside>
     <div class="clearfix"></div>
+
     <footer>
         Saul Correyero Pañero ® 2022
     </footer>
-</div>
-        </div>
-        <div style="display:list-item;"></div>
 </body>
 </html>
