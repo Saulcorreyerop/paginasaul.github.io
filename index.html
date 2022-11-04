@@ -9,7 +9,7 @@
     <meta name="Description" content="Pagina web de Saul">
     <meta name="Keywords" content="HTML,CSS">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" href="icons8-estrella-16.png">
+    <link rel="shortcut icon" href="Imagenes/icons8-estrella-16.png">
 </head>
 <body>
     <div id="container"> 
@@ -39,8 +39,10 @@
                 <h2>Inicio</h2>
                 <p>Página Principal</p>
             <div style="display:list-item;">
-                <img class="autoslide" src="grafica.jpeg" alt="Tarjeta Gráfica">
-                <img class="autoslide" src="cpu.jpeg" alt="cpu">
+                <img class="autoslide" src="Imagenes/grafica.jpeg" alt="Tarjeta Gráfica" title="Tarjeta Gráfica" loading="lazy">
+                <img class="autoslide" src="Imagenes/cpu.jpeg" alt="cpu" title="CPU" loading="lazy">
+                <img class="autoslide" src="Imagenes/ordenador.jpeg" alt="Ordenador" title="Ordenador y Set Up gaming" loading="lazy">
+                <img class="autoslide" src="Imagenes/portatil.jpeg" alt="portatil" title="portatil" loading="lazy">
             </div>
                 <script>
                     var myIndex = 0;
@@ -54,7 +56,7 @@
                     myIndex++;
                     if (myIndex > x.length) {myIndex = 1}    
                     x[myIndex-1].style.display = "block";  
-                    setTimeout(carousel, 2500); // Change image every 2.5 seconds
+                    setTimeout(carousel, 3000); // Change image every 3 seconds
                     }
                 </script>
         </article>
