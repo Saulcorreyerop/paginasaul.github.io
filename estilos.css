@@ -70,7 +70,7 @@ footer{
 
 .autoslide{
     display: flex;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: auto;
     text-align: start;
 }
