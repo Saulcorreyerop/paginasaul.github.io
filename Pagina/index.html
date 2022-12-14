@@ -8,34 +8,38 @@
     <meta name="Author" content="Saul">
     <meta name="Description" content="Pagina web de Saul">
     <meta name="Keywords" content="HTML,CSS">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="shortcut icon" href="Imagenes/icons8-estrella-16.png">
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="shortcut icon" href="../Imagenes/icons8-estrella-16.png">
 </head>
 <body>
-    <div id="container"> 
         <header> 
-            <h1>Página web Saul</h1> 
+            <h1>Pc Zone Miajadas</h1> 
             <nav>
-            <ul>
-                <li>
-                    <a href="index.html" title="Inicio">Inicio</a>
-                </li>
-                <li>
-                    <a href="Pagina 1.html" title="En progreso">Pagina 1</a>
-                </li>
-                <li>
-                    <a href="Pagina 2.html" title="En progreso">Pagina 2</a>
-                </li>
-                <li>
-                    <a href="Quienes Somos.html" title="About we">Quienes Somos</a>
-                </li>
-            </ul>
-            </nav>
+            <ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Pagina 1</a>
+					<ul>
+						<li><a href="Source/Pagina1.html">Pagina 1</a></li>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Pagina 2</a>
+					<ul>
+						<li><a href="Source/Pagina2.html">Pagina 2</a></li>
+					</ul>
+				</li>
+				<li><a href="Source/QuienesSomos.html">Quienes somos</a></li>
+			</ul>
+        </nav>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/"> <img src="../Imagenes/facebook.png" alt=""> </a>
+            <a href="https://www.instagram.com/ " target="_blank"> <img src="../Imagenes/instagram.png" alt=""> </a>
+            <a href="https://twitter.com/home" target="_blank"> <img src="../Imagenes/gorjeo.png" alt=""> </a>
+        </div>
         </header>
     </div>
- <div class="clearfix"></div>
-    <section id="content">
-        <article class="article">
+    <main>
+        <article>
                 <h2>Inicio</h2>
                 <p>Página Principal</p>
             <div style="display:list-item;">
@@ -60,15 +64,8 @@
                     }
                 </script>
         </article>
-    </section>
-    <aside>
-        <h2>Buscar</h2>
-        <form>
-            <input type="text">
-            <input type="submit" value="Buscar">
-        </form>
-    </aside>
-    <div class="clearfix"></div>
+    </section> 
+</main> 
     <footer>
         Saul Correyero Pañero ® 2022
     </footer>
