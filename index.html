@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Pagina Web Saul</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Saul">
+    <meta name="Description" content="Pagina web de Saul">
+    <meta name="Keywords" content="HTML,CSS">
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="shortcut icon" href="../Imagenes/icons8-estrella-16.png">
+</head>
+<body>
+        <header> 
+            <h1>Pc Zone Miajadas</h1> 
+            <nav>
+            <ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Pagina 1</a>
+					<ul>
+						<li><a href="Source/Pagina1.html">Pagina 1</a></li>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Pagina 2</a>
+					<ul>
+						<li><a href="Source/Pagina2.html">Pagina 2</a></li>
+					</ul>
+				</li>
+				<li><a href="Source/QuienesSomos.html">Quienes somos</a></li>
+			</ul>
+        </nav>
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/"> <img src="../Imagenes/facebook.png" alt=""> </a>
+            <a href="https://www.instagram.com/ " target="_blank"> <img src="../Imagenes/instagram.png" alt=""> </a>
+            <a href="https://twitter.com/home" target="_blank"> <img src="../Imagenes/gorjeo.png" alt=""> </a>
+        </div>
+        </header>
+    </div>
+    <main>
+        <article>
+                <h2>Inicio</h2>
+                <p>Página Principal</p>
+            <div style="display:list-item;">
+                <img class="autoslide" src="Imagenes/grafica.jpeg" alt="Tarjeta Gráfica" title="Tarjeta Gráfica" loading="lazy">
+                <img class="autoslide" src="Imagenes/cpu.jpeg" alt="cpu" title="CPU" loading="lazy">
+                <img class="autoslide" src="Imagenes/ordenador.jpeg" alt="Ordenador" title="Ordenador y Set Up gaming" loading="lazy">
+                <img class="autoslide" src="Imagenes/portatil.jpeg" alt="portatil" title="portatil" loading="lazy">
+            </div>
+                <script>
+                    var myIndex = 0;
+                    carousel();
+                    function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("autoslide");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 3000); // Change image every 3 seconds
+                    }
+                </script>
+        </article>
+    </section> 
+</main> 
+    <footer>
+        Saul Correyero Pañero ® 2022
+    </footer>
+</body>
+</html>
