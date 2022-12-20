@@ -2,14 +2,17 @@
     margin: auto;
     padding: auto;
 }
+
 header{
-background-color: rgb(14, 14, 126);
-height: 8.5vh;
-width: 100vw;
-margin: auto;
-text-align: center;
-color: white;
+    background-color: rgb(14, 14, 126);
+    height: 8.3vh;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    color: white;
 }
+
+/*Inicio del nav desplegable*/
 
 nav{
 display: flex;
@@ -27,7 +30,7 @@ float:left;
 }
 
 .nav li a {
-background-color:#000;
+background-color:rgb(0, 0, 0);
 color:#fff;
 text-decoration:none;
 padding:10px 12px;
@@ -35,7 +38,7 @@ display:block;
 }
 
 .nav li a:hover {
-background-color:#434343;
+background-color:hsl(184, 100%, 50%);
 }
 
 .nav li ul {
@@ -56,9 +59,90 @@ position:relative;
 right:-140px;
 top:0px;
 }
+ 
 
+.nav li ul a:hover {
+    background-color:#00a2ff;
+}
+/*Fin del estilo del nav con desplegable*/
+
+/*Estilos de las redes sociales del nav (Iconos)*/
 .socialmedia{
-position: absolute;
-top: 5%;
-right: 2%;
-}   
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    }  
+
+/*Estilos de las cards para productos*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+/*Card 2*/
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card2 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+  
+/*footer*/
+  footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+}

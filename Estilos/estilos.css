@@ -10,7 +10,7 @@ body{
 
 header{
     background-color: rgb(14, 14, 126);
-    height: 8.5vh;
+    height: 8.3vh;
     width: 100vw;
     margin: auto;
     text-align: center;
@@ -41,7 +41,7 @@ display:block;
 }
 
 .nav li a:hover {
-background-color:#434343;
+background-color:hsl(184, 100%, 50%);
 }
 
 .nav li ul {
@@ -92,4 +92,8 @@ text-align: start;
 position: absolute;
 top: 5%;
 right: 2%;
+}
+
+.nav li ul a:hover {
+    background-color:#00a2ff;
 }
