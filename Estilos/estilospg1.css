@@ -12,6 +12,10 @@ header{
     color: white;
 }
 
+body{
+  background-color: hsl(0, 0%, 83%);
+}
+
 /*Inicio del nav desplegable*/
 
 nav{
@@ -84,7 +88,7 @@ top:0px;
   }
   
   .price {
-    color: grey;
+    color: blueviolet;
     font-size: 22px;
   }
   
@@ -121,7 +125,38 @@ top:0px;
 
 .card2 button {
   border: none;
-  outline: 0;
+  outline: 2px;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*Card 3*/
+
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: blueviolet;
+  font-size: 22px;
+}
+
+.card3 button {
+  border: none;
+  outline: 2px;
   padding: 12px;
   color: white;
   background-color: #000;
@@ -145,4 +180,13 @@ top:0px;
     height: 5vh;
     display: flex;
     justify-content: space-around;
+}
+
+main{
+  padding: 25px;
+  margin: 25px;
+  width: 94vw;
+  height: 75vh;
+  border: 3px solid blueviolet;
+  border-radius: 50px;
 }
