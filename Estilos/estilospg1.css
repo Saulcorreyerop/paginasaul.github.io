@@ -14,6 +14,7 @@ header{
 
 body{
   background-color: hsl(0, 0%, 83%);
+  overflow: scroll;
 }
 
 /*Inicio del nav desplegable*/
@@ -187,6 +188,6 @@ main{
   margin: 25px;
   width: 94vw;
   height: 75vh;
-  border: 3px solid blueviolet;
+  border: 3px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
