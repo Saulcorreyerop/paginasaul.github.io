@@ -3,11 +3,13 @@
     padding: auto;
 }
 
+/* Estilos del Body*/
 body{
     background-color: hsl(0, 0%, 83%);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Estilos de la cabecera*/
 header{
     background-color: rgb(14, 14, 126);
     height: 8.6%;
@@ -17,6 +19,7 @@ header{
     color: white;
 }
 
+/*Estilos del menú de Navegación*/
 .navbar {
   overflow: hidden;
   background-color: blueviolet; 
@@ -75,24 +78,19 @@ header{
   display: block;
 }
 
+.nav li ul a:hover {
+  background-color:#00a2ff;
+} 
+
 #content{
 float: left;
 width: 80%;
 background-color: rgb(255, 255, 255);
 min-height: 400px;
 }
+/*Fin del Menú*/
 
-footer{
-background-color: black;
-color: white;
-display: flex;
-justify-content: space-around;
-bottom: 0;
-position: absolute;
-width: 100%;
-height: 6%;
-}
-
+/*Estilos de las imágenes en movimiento*/
 .autoslide{
 display: flex;
 height: 200px;
@@ -100,16 +98,14 @@ width: auto;
 text-align: start;
 }
 
+/*Iconos de redes sociales*/
 .socialmedia{
 position: absolute;
 top: 0;
 right: 2%;
 }
 
-.nav li ul a:hover {
-    background-color:#00a2ff;
-} 
-
+/*Estilos del Buscador*/
 .search-bar {
     margin:0;
     padding:0;
@@ -117,8 +113,8 @@ right: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
-    top:65%;
-    left:50%;
+    top:9%;
+    left:83%;
     position: absolute;
     transform: translate(-50%,-50%);
     border: 5px black solid;
@@ -184,3 +180,17 @@ right: 2%;
     color: white;
     transition-duration: 0.2s;
   }
+/*Fin del estilo del buscador*/
+
+/*Inicio del Pie de Página*/
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 6%;
+  }
+  /*Fin del Pie de Página*/ 
