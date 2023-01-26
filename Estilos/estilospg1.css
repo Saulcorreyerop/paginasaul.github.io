@@ -79,9 +79,10 @@ top:0px;
 
 /*Estilos de las cards para productos*/
 
+/*Card 1*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 20%;
+    max-width: 200%;
     margin: auto;
     text-align: center;
     font-family: arial;
@@ -107,6 +108,7 @@ top:0px;
   .card button:hover {
     opacity: 0.7;
   }
+/*Fin de la Card 1*/
 
 /*Card 2*/
 
@@ -139,6 +141,7 @@ top:0px;
   opacity: 0.7;
   background-color: blue;
 }
+/*Fin de la Card 2*/
 
 /*Card 3*/
 
@@ -170,6 +173,7 @@ top:0px;
 .card button:hover {
   opacity: 0.7;
 }
+/*Fin de la Card 3*/
   
 /*footer*/
   footer{
@@ -183,11 +187,13 @@ top:0px;
     justify-content: space-around;
 }
 
+/*Estilos de los bordes de páginas*/
 main{
-  padding: 25px;
-  margin: 25px;
-  width: 90%;
-  height: 100%;
+  display: flex;
+  padding: 4%;
+  margin: 1%; 
+  width: 87%;
+  height: 50%;
   border: 3px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
