@@ -89,10 +89,10 @@ min-height: 400px;
 
 /*Estilos de las redes sociales del nav (Iconos)*/
 .socialmedia{
-    position: absolute;
-    top: 5%;
-    right: 2%;
-    }  
+  position: absolute;
+  top: 0;
+  right: 2%;
+  }
 
 /*Estilos de las cards para productos*/
 

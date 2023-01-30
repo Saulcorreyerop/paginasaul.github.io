@@ -89,10 +89,10 @@ min-height: 400px;
 
 /*Estilos de las redes sociales del nav (Iconos)*/
 .socialmedia{
-    position: absolute;
-    top: 5%;
-    right: 2%;
-    }  
+  position: absolute;
+  top: 0;
+  right: 2%;
+  }
 
 /*Estilos de las cards para productos*/
 
@@ -194,7 +194,7 @@ min-height: 400px;
     color: white;
     background-color: black;
     width: 100%;
-    height: 5%;
+    height: 6%;
     display: flex;
     justify-content: space-around;
 }
@@ -203,7 +203,6 @@ main{
   padding: 25px;
   margin: 25px;
   width: 90%;
-  height: 75%;
-  border: 3px solid rgb(0, 17, 255);
+  border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
