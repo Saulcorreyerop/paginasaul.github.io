@@ -87,13 +87,14 @@ color: white;
 /*Fin del NAV*/
 
 /*Estilos del Formulario*/
-input, label{
+input, label, select{
   display: flex;
   justify-content: space-around;
 }
 fieldset{
-  margin-top: -5%;
+  margin-top: -2%;
   width: 40%; 
+  height: 29em;
   border-radius: 50px;
   border: 3px solid rgb(0, 17, 255);
 }
