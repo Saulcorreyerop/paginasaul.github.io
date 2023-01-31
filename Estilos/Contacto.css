@@ -6,7 +6,7 @@
 body{
     background-color:  hsl(0, 0%, 83%);
 }
-
+/*Cabecera*/
 header{
 background-color: rgb(14, 14, 126);
 height: 8%;
@@ -85,13 +85,26 @@ color: white;
   min-height: 400px;
   }
 /*Fin del NAV*/
+
+/*Estilos del Formulario*/
+input, label{
+  display: flex;
+  justify-content: space-around;
+}
+fieldset{
+  margin-top: -5%;
+  width: 40%; 
+  border-radius: 50px;
+  border: 3px solid rgb(0, 17, 255);
+}
+
 /*Iconos de redes sociales*/
 .socialmedia{
     position: absolute;
     top: 0;
     right: 2%;
     }
-
+/*Pie de Pagina*/
 footer{
     background-color: hsl(0, 0%, 0%);
     color: hsl(0, 0%, 100%);
