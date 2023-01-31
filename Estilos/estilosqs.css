@@ -101,6 +101,7 @@ p{
 }
 
 iframe{
+display:flex;
 position: absolute;
 top: 38%;
 right: 20%;
