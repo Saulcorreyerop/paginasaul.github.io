@@ -14,7 +14,16 @@ width: 100%;
 margin: auto;
 text-align: center;
 color: white;
+} 
+
+.contacto{
+  text-align: center;
+  background-color: greenyellow;
+  margin-top: 2%;
+  border-radius: 50px;
+  width: 70%;
 }
+
 /*Inicio del NAV*/
 .navbar {
     overflow: hidden;
@@ -92,9 +101,10 @@ input, label, select{
   justify-content: space-around;
 }
 fieldset{
-  margin-top: -2.5%;
-  width: 40%; 
-  height: 32em;
+  margin-top: 1.5%;
+  margin-bottom: 2.7%;
+  width: 20%; 
+  height: 40em;
   border-radius: 50px;
   border: 1px solid rgb(0, 17, 255);
 }
@@ -116,4 +126,47 @@ footer{
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+/*Pantallas responsivas*/
+@media (min-widht: 1024px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 480px){
+  *{
+    margin: auto;
+    padding: auto;
+  }
+
+  body{
+    width: 100%;}
+
+  header{
+    width: 100%;
+    text-align: start;}
+
+  nav{
+    width: 100%;
+  }
+/*Estilos del Formulario*/
+fieldset{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 35%; 
+  height: 30em;
+  border-radius: 50px;
+  border: 1px solid rgb(0, 17, 255);
+}
+
+.contacto{
+  text-align: center;
+  background-color: greenyellow;
+  font-size: 1em;
+  margin-top: 4%;
+  border-radius: 50px;
+  width: 90%;
+}
 }
