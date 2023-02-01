@@ -236,11 +236,10 @@ footer{
 
 /*Estilos de los bordes de páginas*/
 main{
-  display: flex;
   padding: 4%;
   margin: 1%; 
   width: 89%;
-  height: 110em;
+  height: 100em;
   border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
@@ -254,6 +253,7 @@ main{
 }
 
 @media (max-widht: 480px){
+  
   body{
     width: 100%;
   }
@@ -270,11 +270,10 @@ main{
   }
 
   main{
-  display: flex;
   padding: 4%;
   margin: 1%; 
   width: 89%;
-  height: 110em;
+  height: 80em;
   border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
   }
