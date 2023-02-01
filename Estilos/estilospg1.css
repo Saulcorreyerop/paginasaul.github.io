@@ -252,45 +252,45 @@ main{
 
 }
 
-@media (max-widht: 480px){
-  
-  body{
-    width: 100%;
+@media screen and (max-width: 480px){ 
+  *{
+    margin: auto;
+    padding: auto;
   }
+
+  body{
+    width: 100%;}
 
   header{
     width: 100%;
-    justify-content: flex-start;
-    text-align: start;
-  }
-  
-  nav{
-    width: 2em;
-  }
+    text-align: start;}
 
+  nav{
+    width: 100%;
+  }
   main{
   padding: 4%;
   margin: 1%; 
-  width: 89%;
-  height: 115em;
+  width: 88%;
+  height: 105em;
   border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
   }
 
   .card{
     margin-top: 0%;
-    margin-left:21%;
+    margin-left:5%;
   }
   .card2{
-    margin-top: 100%;
-    margin-left:-56%;
+    margin-top:0;
+    margin-left:5%;
   }
   .card3{
-    margin-top: 205%; 
-    margin-left:-65%;
+    margin-top: 0; 
+    margin-left:5%;
   }
   .card4{
-    margin-top: 300%; 
-    margin-left:-56%;
+    margin-top: 0%; 
+    margin-left:5%;
   }
 } 
