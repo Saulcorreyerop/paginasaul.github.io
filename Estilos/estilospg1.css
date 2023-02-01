@@ -103,6 +103,8 @@ min-height: 400px;
     margin: auto;
     text-align: center;
     font-family: arial;
+    margin-top: -2%;
+    margin-left: 0;
   }
   
   .price {
@@ -134,6 +136,8 @@ min-height: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
+  margin-top: -27.5%;
+  margin-left: 26%;
 }
 
 .price2 {
@@ -165,6 +169,8 @@ min-height: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
+  margin-top: -27.5%;
+  margin-left: 55%;
 }
 
 .price3 {
@@ -196,6 +202,8 @@ min-height: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
+  margin-top: -27.89%;
+  margin-left: 80%;
 }
 
 .price4 {
@@ -239,7 +247,7 @@ main{
   padding: 4%;
   margin: 1%; 
   width: 88%;
-  height: 105em;
+  height: 38.2em;
   border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
