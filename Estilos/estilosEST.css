@@ -95,38 +95,38 @@ min-height: 400px;
   }
 
 /*Estilos de las cards para productos*/
-
+/*Card*/
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-  }
-  
-  .price {
-    color: blue;
-    font-size: 22px;
-  }
-  
-  .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.7;
-  }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: blueviolet;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+/*Fin Card*/
 
 /*Card 2*/
-
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -135,14 +135,14 @@ min-height: 400px;
   font-family: arial;
 }
 
-.price {
-  color: grey;
+.price2 {
+  color: blueviolet;
   font-size: 22px;
 }
 
 .card2 button {
   border: none;
-  outline: 2px;
+  outline: 0;
   padding: 12px;
   color: white;
   background-color: #000;
@@ -152,12 +152,12 @@ min-height: 400px;
   font-size: 18px;
 }
 
-.card button:hover {
+.card2 button:hover {
   opacity: 0.7;
 }
+/*Fin Card2*/
 
 /*Card 3*/
-
 .card3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -166,14 +166,14 @@ min-height: 400px;
   font-family: arial;
 }
 
-.price {
-  color: blue;
+.price3 {
+  color: blueviolet;
   font-size: 22px;
 }
 
 .card3 button {
   border: none;
-  outline: 2px;
+  outline: 0;
   padding: 12px;
   color: white;
   background-color: #000;
@@ -183,26 +183,111 @@ min-height: 400px;
   font-size: 18px;
 }
 
-.card button:hover {
+.card3 button:hover {
   opacity: 0.7;
 }
+/*Fin Card3*/
+
+/*Card 4*/
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price4 {
+  color: blueviolet;
+  font-size: 22px;
+}
+
+.card4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card4 button:hover {
+  opacity: 0.7;
+}
+/*Fin Card 4*/
   
 /*footer*/
-  footer{
-    position: absolute;
-    bottom: 0;
-    color: white;
-    background-color: black;
-    width: 100%;
-    height: 6%;
-    display: flex;
-    justify-content: space-around;
+footer{
+  width: 99%;
+  padding: 0.5%;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-weight: 700;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 main{
-  padding: 25px;
-  margin: 25px;
-  width: 90%;
+  padding: 4%;
+  margin: 1%; 
+  width: 89%;
+  height: 115em;
   border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
+
+/*Pantallas responsivas*/
+@media (min-widht: 1024px){
+
+}
+@media (min-widht: 768px){
+
+}
+
+@media (max-widht: 480px){
+  
+  body{
+    width: 100%;
+  }
+
+  header{
+    width: 100%;
+    justify-content: flex-start;
+    text-align: start;
+  }
+  
+  nav{
+    width: 2em;
+  }
+
+  main{
+  padding: 4%;
+  margin: 1%; 
+  width: 89%;
+  height: 110em;
+  border: 5px solid rgb(0, 17, 255);
+  border-radius: 50px;
+  }
+
+  .card{
+    margin-top: 0%;
+    margin-left:21%;
+  }
+  .card2{
+    margin-top: 100%;
+    margin-left:-56%;
+  }
+  .card3{
+    margin-top: 205%; 
+    margin-left:-65%;
+  }
+  .card4{
+    margin-top: 300%; 
+    margin-left:-56%;
+  }
+} 
