@@ -128,23 +128,22 @@ min-height: 400px;
 /*Fin de la Card 1*/
 
 /*Card 2*/
-
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 20%;
+  max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
 }
 
-.price {
-  color: grey;
+.price2 {
+  color: blueviolet;
   font-size: 22px;
 }
 
 .card2 button {
   border: none;
-  outline: 2px;
+  outline: 0;
   padding: 12px;
   color: white;
   background-color: #000;
@@ -154,30 +153,28 @@ min-height: 400px;
   font-size: 18px;
 }
 
-.card button:hover {
+.card2 button:hover {
   opacity: 0.7;
-  background-color: blue;
 }
 /*Fin de la Card 2*/
 
 /*Card 3*/
-
 .card3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 20%;
+  max-width: 300px;
   margin: auto;
   text-align: center;
   font-family: arial;
 }
 
-.price {
+.price3 {
   color: blueviolet;
   font-size: 22px;
 }
 
 .card3 button {
   border: none;
-  outline: 2px;
+  outline: 0;
   padding: 12px;
   color: white;
   background-color: #000;
@@ -187,10 +184,41 @@ min-height: 400px;
   font-size: 18px;
 }
 
-.card button:hover {
+.card3 button:hover {
   opacity: 0.7;
 }
 /*Fin de la Card 3*/
+
+/*Card 4*/
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price4 {
+  color: blueviolet;
+  font-size: 22px;
+}
+
+.card4 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card4 button:hover {
+  opacity: 0.7;
+}
+/*Fin de la Card 4*/
   
 /*footer*/
 footer{
@@ -212,7 +240,7 @@ main{
   padding: 4%;
   margin: 1%; 
   width: 89%;
-  height: 23em;
+  height: 110em;
   border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
@@ -239,6 +267,32 @@ main{
   
   nav{
     width: 2em;
-
   }
-}
+
+  main{
+  display: flex;
+  padding: 4%;
+  margin: 1%; 
+  width: 89%;
+  height: 110em;
+  border: 5px solid rgb(0, 17, 255);
+  border-radius: 50px;
+  }
+
+  .card{
+    margin-top: 0%;
+    margin-left:21%;
+  }
+  .card2{
+    margin-top: 100%;
+    margin-left:-56%;
+  }
+  .card3{
+    margin-top: 205%; 
+    margin-left:-65%;
+  }
+  .card4{
+    margin-top: 300%; 
+    margin-left:-56%;
+  }
+} 
