@@ -126,6 +126,7 @@ min-height: 400px;
   
   .card button:hover {
     opacity: 0.7;
+    background-color: blueviolet;
   }
 /*Fin de la Card 1*/
 
@@ -136,7 +137,7 @@ min-height: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
-  margin-top: -27.5%;
+  margin-top: -40.6%;
   margin-left: 26%;
 }
 
@@ -159,6 +160,7 @@ min-height: 400px;
 
 .card2 button:hover {
   opacity: 0.7;
+  background-color: blueviolet;
 }
 /*Fin de la Card 2*/
 
@@ -169,8 +171,8 @@ min-height: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
-  margin-top: -27.5%;
-  margin-left: 55%;
+  margin-top: -40.6%;
+  margin-left: 52.09%;
 }
 
 .price3 {
@@ -192,6 +194,7 @@ min-height: 400px;
 
 .card3 button:hover {
   opacity: 0.7;
+  background-color: blueviolet;
 }
 /*Fin de la Card 3*/
 
@@ -202,8 +205,8 @@ min-height: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
-  margin-top: -27.89%;
-  margin-left: 80%;
+  margin-top: -40.6%;
+  margin-left: 78.09%;
 }
 
 .price4 {
@@ -225,6 +228,8 @@ min-height: 400px;
 
 .card4 button:hover {
   opacity: 0.7;
+  background-color: blueviolet;
+  color: greenyellow;
 }
 /*Fin de la Card 4*/
   
