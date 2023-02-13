@@ -76,7 +76,7 @@ color: white;
   }
 /*Fin del NAV*/
 
-span{
+ .texto{
 font-family:Arial, Helvetica, sans-serif;
 position: absolute;
 top:17%;
