@@ -128,6 +128,9 @@ footer{
   align-items: center;
   text-align: center;
 }
+.botonmenu{
+  display: none;
+}
 /*Pantallas responsivas*/
 @media (min-widht: 1024px){
 
@@ -169,5 +172,14 @@ fieldset{
   margin-top: 4%;
   border-radius: 50px;
   width: 90%;
+}
+.botonmenu{
+  display: block;
+  margin-left: 65%;
+  margin-top: -8%;
+  color: greenyellow;
+}
+.nonavm{
+  display: none;
 }
 }

@@ -256,7 +256,9 @@ main{
   border: 5px solid rgb(0, 17, 255);
   border-radius: 50px;
 }
-
+.botonmenu{
+  display: none;
+}
 /*Pantallas responsivas*/
 @media (min-widht: 1024px){
 
@@ -305,5 +307,14 @@ main{
   .card4{
     margin-top: 0%; 
     margin-left:5%;
+  }
+  .botonmenu{
+    display: block;
+    margin-left: 65%;
+    margin-top: -8%;
+    color: greenyellow;
+  }
+  .nonavm{
+    display: none;
   }
 } 

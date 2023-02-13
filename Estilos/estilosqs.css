@@ -111,7 +111,9 @@ iframe{
   margin-top: 13%;
   
 }
-
+.botonmenu{
+  display: none;
+}
 /*Pantallas responsivas*/
 @media screen and (max-width: 1920px){
   *{
@@ -181,5 +183,14 @@ iframe{
     position: absolute;
     top: 0;
     right: 5%;
+    }
+    .botonmenu{
+      display: block;
+      margin-left: 65%;
+      margin-top: -8%;
+      color: greenyellow;
+    }
+    .nonavm{
+      display: none;
     }
 }

@@ -11,10 +11,57 @@
     <link rel="stylesheet" href="../../Estilos/Contacto.css">
     <link rel="shortcut icon" href="../../Imagenes/icons8-estrella-16.png">
     <script src="https://kit.fontawesome.com/8795416287.js" crossorigin="anonymous"></script>
+    <style>
+     .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #00d9ff;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+    </style>
 </head>
 <body>
   <header> 
     <h1>Pc Zone Miajadas</h1> 
+    <div class="nonavm">
 <nav class="nav1">
     <div class="navbar">
         <a href="../../index.html"><i class="fa-solid fa-house">Inicio</i></a>
@@ -35,7 +82,30 @@
           </div>
       </div>
     </nav>
+    </div>
   </header>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+                <a href="../../index.html"><i class="fa-solid fa-house">Inicio</i></a>
+                <p style="color: greenyellow; font-size: 2em;">PC Premontados</p>
+                <a href="../Premontados/premontados.html">Todo Premontados</a>
+                <a href="../Premontados/Pagina1.html">Gaming</a>
+                <a href="../Premontados/estudiantes.html">Para Estudiantes</a>
+                  <p style="color: greenyellow; font-size: 2em;">Quienes somos</p>
+                  <a href="QuienesSomos.html">Sobre Nosotros</a>
+                  <a href="/Source/Nosotros/Contacto.html">Contactenos</a>
+    </div>
+  </div>
+  <span class="botonmenu" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script> 
   <h1 class="contacto">Rellene el siguiente formulario de para ponerse en contacto con nosotros</h1>
     <fieldset>
       <form action="mailto:scorreyerop01@educarex.es" method="post" enctype="text/plain">

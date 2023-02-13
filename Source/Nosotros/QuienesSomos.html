@@ -12,12 +12,56 @@
     <link rel="stylesheet" href="../../Estilos/estilosqs.css">
     <script src="https://kit.fontawesome.com/8795416287.js" crossorigin="anonymous"></script>
     <style>
-      
+     .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #00d9ff;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
     </style>
 </head>
 <body>
   <header> 
    <marquee behavior="scroll" direction="right"><h1> Pc Zone Miajadas</h1> </marquee> 
+   <div class="nonavm">
 <nav class="nav1">
     <div class="navbar">
         <a href="../../index.html"><i class="fa-solid fa-house">Inicio</i></a>
@@ -38,7 +82,30 @@
           </div>
       </div>
     </nav>
+   </div>
   </header>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="../../index.html"><i class="fa-solid fa-house">Inicio</i></a>
+                <p style="color: greenyellow; font-size: 2em;">PC Premontados</p>
+                <a href="../Premontados/premontados.html">Todo Premontados</a>
+                <a href="../Premontados/Pagina1.html">Gaming</a>
+                <a href="../Premontados/estudiantes.html">Para Estudiantes</a>
+                  <p style="color: greenyellow; font-size: 2em;">Quienes somos</p>
+                  <a href="QuienesSomos.html">Sobre Nosotros</a>
+                  <a href="Contacto.html">Contactenos</a>
+    </div>
+  </div>
+  <span class="botonmenu" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script> 
 <p>- Somos una tienda nueva en el sector Informático, que se especializa en el montaje y el mantenimiento de equipos </p> <br><br> <br>
 <span>- Nos encontramos situados en la plaza de España, número 10, Miajadas (Cáceres) </span>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193.37733679585216!2d-5.907433622509722!3d39.15113123241853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd144d5d68d5e2c1%3A0xe9d33ff9d1cb7b32!2sPl.%20de%20Espa%C3%B1a%2C%2010%2C%2010100%20Miajadas%2C%20C%C3%A1ceres!5e0!3m2!1ses!2ses!4v1671044808585!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
