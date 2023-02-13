@@ -102,8 +102,7 @@ footer{
   }
 
 .socialmedia{
-  position: absolute;
-  top: 0;
+  bottom: 0;
   right: 5%;
   }
 iframe{
@@ -186,8 +185,8 @@ iframe{
     }
     .botonmenu{
       display: block;
-      margin-left: 66%;
-      margin-top: -29%;
+      margin-left: 90%;
+      margin-top: -11%;
       color: greenyellow;
     }
     .nonavm{

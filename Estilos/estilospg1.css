@@ -89,8 +89,7 @@ min-height: 400px;
 
 /*Estilos de las redes sociales del nav (Iconos)*/
 .socialmedia{
-  position: absolute;
-  top: 0;
+  bottom: 0;
   right: 2%;
   }
 
@@ -310,11 +309,12 @@ main{
   }
   .botonmenu{
     display: block;
-    margin-left: 65%;
-    margin-top: -10%;
+    margin-left: 90%;
+    margin-top: -11%;
     color: greenyellow;
   }
   .nonavm{
     display: none;
   }
+
 } 
