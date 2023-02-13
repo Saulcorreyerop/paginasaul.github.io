@@ -195,13 +195,20 @@ footer{
   }
 /*Fin del Pie de Página*/ 
 
+.botonmenu{
+  display: none;
+}
+
 @media screen and (max-width: 480px){ 
   .nonavm{
     display: none;
   }
   header{
     width: 100%;
-    height: 2%;
+    height: 5em;
   }
-
+  .botonmenu{
+    display: block;
+    margin-top: -8%;
+  }
 }
