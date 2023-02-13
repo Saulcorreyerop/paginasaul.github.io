@@ -194,3 +194,14 @@ footer{
   height: 6%;
   }
 /*Fin del Pie de Página*/ 
+
+@media screen and (max-width: 480px){ 
+  .nonavm{
+    display: none;
+  }
+  header{
+    width: 100%;
+    height: 2%;
+  }
+
+}
