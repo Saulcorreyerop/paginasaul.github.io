@@ -256,6 +256,11 @@ main{
 .botonmenu{
   display: none;
 }
+
+ .ajuste{
+  display: grid                                                                 ;
+ }
+
 /*Pantallas responsivas*/
 @media (min-widht: 1024px){
 

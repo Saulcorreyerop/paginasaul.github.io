@@ -93,8 +93,9 @@ p{
 }
 
 footer{
+  text-align: center;
   width: 99%;
-  height: 2em;
+  height: 3em;
   padding: 0.5%;
   color: rgb(255, 255, 255);
   background-color: black;
@@ -107,7 +108,7 @@ footer{
   }
 iframe{
   margin-left: 25%;
-  margin-top: 13%;
+  margin-top: 16%;
   
 }
 .botonmenu{
