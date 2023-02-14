@@ -157,7 +157,7 @@ iframe{
   .texto{
     font-family:Arial, Helvetica, sans-serif;
     position: absolute;
-    top:60%;
+    top:70%;
     font-size: 1.5em;
     margin-left: 0.1em;
     }
@@ -172,7 +172,7 @@ iframe{
     width: 20em;
     height: 20em;
     margin-left: 4%;
-    margin-top: 130%;
+    margin-top: 160%;
   }
   footer{
     text-align: center;
