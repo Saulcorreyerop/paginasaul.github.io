@@ -245,7 +245,6 @@ footer{
     text-align: center;
 }
 
-
 /*Estilos de los bordes de páginas*/
 main{
   padding: 4%;
@@ -425,5 +424,9 @@ main{
   .darkmode{
     position: fixed;
     top: 7%;
+  }
+
+  footer{
+    height: 3.5em;
   }
 } 
