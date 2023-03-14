@@ -19,8 +19,17 @@
         <link rel="icon" type="image/png" href="../../Imagenes/favicon-16x16.png"/>
         <link rel="icon" type="image/png" href="../../Imagenes/favicon-32x32.png"/>
         <link rel="icon" type="image/png" href="../../Imagenes/site.webmanifest"/>
-        <style>
-     .overlay {
+       
+       <style>
+/*Inicio Modo Oscuro*/
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/*Fin Modo Oscuro*/
+.overlay {
   height: 100%;
   width: 0;
   position: fixed;
@@ -155,6 +164,20 @@ function closeNav() {
     </div>    
 </main>
         </div>
+
+  <!--Luna para el cambio de color Light/Dark-->
+
+  <i class="fa-regular fa-moon" onclick="myFunction()"></i>
+
+  <!--Script cambio de Light a Dark-->
+ <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+    <!-- Fin Script cambio de Light a Dark-->
+
 <footer>
   Saul Correyero Pañero ® 2022
   <div class="socialmedia">
