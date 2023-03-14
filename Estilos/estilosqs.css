@@ -197,7 +197,7 @@ footer{
   .direccion{
     font-family:Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 105%;
+    top: 108%;
     font-size: 1.5em;
 
 }
@@ -213,15 +213,16 @@ footer{
     display: flex;
     margin-top: 90%;
     left: 50%;
+    width: 100%;
 }
 
   .mapa{
-    margin-left: 4%;
-    margin-top: 40%;
+    display: flex;
+    margin-top: 55%;
 }
 
   iframe{
-    width: 20em;
+    width: 24em;
     height: 20em;
 }
 
