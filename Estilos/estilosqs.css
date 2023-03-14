@@ -85,11 +85,11 @@ color: white;
 }
 
  .direccion{
-font-family:Arial, Helvetica, sans-serif;
-position: absolute;
-margin-top: 12%;
-font-size: 22px;
-margin-left: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-top: 4%;
+  font-size: 22px;
+  margin-left: 15px;
 }
 
 footer{
@@ -108,13 +108,19 @@ footer{
   }
  
 .mapa{
-  margin-left: 28%;
-  margin-top: 16%;
+  display: flex;
+  margin-top: 8%;
   
 }
 .botonmenu{
   display: none;
 }
+
+.foto{
+  display:flex;
+  margin-top: 8%;
+}
+
 /*Pantallas responsivas*/
 @media screen and (min-width: 912px){
   *{
@@ -173,57 +179,71 @@ footer{
   *{
     margin: auto;
     padding: auto;
-  }
+}
 
   body{
-    width: 100%;}
+    width: 100%;
+}
 
   header{
     width: 100%;
-    text-align: start;}
+    text-align: start;
+}
 
   nav{
     width: 100%;
-  }
+}
     
   .direccion{
     font-family:Arial, Helvetica, sans-serif;
     position: absolute;
-    top:70%;
+    top: 105%;
     font-size: 1.5em;
-    margin-left: 0.1em;
-    }
+
+}
 
   .texto{
-      font-family:Arial, Helvetica, sans-serif;
-      top: 6%;
-      font-size: 1.5em;
-      margin-left: 0.1em;
-    }
+    font-family:Arial, Helvetica, sans-serif;
+    top: 6%;
+    font-size: 1.5em;
+    margin-left: 0.1em;
+}
+
+  .foto{
+    display: flex;
+    margin-top: 90%;
+    left: 50%;
+}
+
   .mapa{
     margin-left: 4%;
-    margin-top: 160%;
-  }
+    margin-top: 40%;
+}
+
   iframe{
     width: 20em;
     height: 20em;
-  }
+}
+
   footer{
     text-align: center;
     width: 99%;
     height: 4em;
-  }
+}
+
   .socialmedia{
     bottom: 0;
     right: -1%;
-    }
-    .botonmenu{
-      display: block;
-      margin-left: 90%;
-      margin-top: -11%;
-      color: greenyellow;
-    }
-    .nonavm{
-      display: none;
-    }
+}
+
+  .botonmenu{
+    display: block;
+    margin-left: 90%;
+    margin-top: -11%;
+    color: greenyellow;
+}
+
+  .nonavm{
+    display: none;
+}
 }
