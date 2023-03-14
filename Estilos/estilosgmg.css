@@ -388,6 +388,11 @@ main{
   border-radius: 50px;
   }
 
+  .ajuste{
+    display: grid;
+    grid-template-columns: 100%;
+  }
+
   .card{
     margin-top: 0%;
     margin-left:5%;
