@@ -76,20 +76,20 @@ color: white;
   }
 /*Fin del NAV*/
 
- .texto{
-font-family:Arial, Helvetica, sans-serif;
-position: absolute;
-top:17%;
-font-size: 22px;
-margin-left: 15px;
-}
-
-p{
+.texto{
   font-family:Arial, Helvetica, sans-serif;
   position: absolute;
-  top: 27%;
+  margin-top: 4%;
   font-size: 22px;
   margin-left: 15px;
+}
+
+ .direccion{
+font-family:Arial, Helvetica, sans-serif;
+position: absolute;
+margin-top: 12%;
+font-size: 22px;
+margin-left: 15px;
 }
 
 footer{
@@ -106,8 +106,9 @@ footer{
   bottom: 0;
   right: 5%;
   }
-iframe{
-  margin-left: 25%;
+ 
+.mapa{
+  margin-left: 28%;
   margin-top: 16%;
   
 }
@@ -115,26 +116,57 @@ iframe{
   display: none;
 }
 /*Pantallas responsivas*/
-@media screen and (max-width: 1920px){
+@media screen and (min-width: 912px){
   *{
     margin: auto;
     padding: auto;
   }
+
+  body{
+    width: 100%;}
+
+  header{
+    width: 100%;
+    height: 2.5em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 912px){
+  *{
+    margin: auto;
+    padding: auto;
+  }
+
   body{
     width: 100%;
   }
+
   header{
     width: 100%;
+    height: 2.5em;
+    text-align: center;
   }
-  nav{
-    width: 100%;
-    height: 2em;
+
+  .botonmenu{
+    display: block;
+    margin-left: 87%;
+    margin-top: -6%;
+    color: greenyellow;
   }
-  
-
-}
-@media screen and (max-width: 768px){
-
+  .nonavm{
+    display: none;
+  }
+  .direccion{
+    top: 25%;
+  }
+  .texto{
+    top: 5%;
+  }
+  .mapa{
+    margin-left: 5%;
+    margin-top: 50%;
+  }
 }
 
 @media screen and (max-width: 480px){
@@ -154,7 +186,7 @@ iframe{
     width: 100%;
   }
     
-  .texto{
+  .direccion{
     font-family:Arial, Helvetica, sans-serif;
     position: absolute;
     top:70%;
@@ -162,17 +194,19 @@ iframe{
     margin-left: 0.1em;
     }
 
-  p{
+  .texto{
       font-family:Arial, Helvetica, sans-serif;
       top: 9%;
       font-size: 1.5em;
       margin-left: 0.1em;
     }
+  .mapa{
+    margin-left: 4%;
+    margin-top: 160%;
+  }
   iframe{
     width: 20em;
     height: 20em;
-    margin-left: 4%;
-    margin-top: 160%;
   }
   footer{
     text-align: center;
@@ -180,7 +214,6 @@ iframe{
     height: 4em;
   }
   .socialmedia{
-
     bottom: 0;
     right: -1%;
     }

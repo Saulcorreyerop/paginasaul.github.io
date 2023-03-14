@@ -262,10 +262,104 @@ main{
  }
 
 /*Pantallas responsivas*/
-@media (min-widht: 1024px){
+@media screen and (min-width: 912px){
+  *{
+    margin: auto;
+    padding: auto;
+  }
 
+  body{
+    width: 100%;}
+
+  main{
+    width: 88%;
+    height: 35.9em;
+    border: 5px solid rgb(0, 17, 255);
+    border-radius: 50px;
+  }
+
+  .ajuste{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+  }
+
+  .card{
+    margin-left: -2%;
+  }
+
+  .card2{
+    margin-top: 0.1%;
+    margin-left: 25%;
+  }
+
+  .card3{
+    margin-top: 0.1%;
+    margin-left: 55%;
+  }
+
+  .card4{
+    margin-top: 0.1%;
+    margin-left: 90%;
+  }
 }
-@media (min-widht: 768px){
+
+@media screen and (max-width: 912px){
+  *{
+    margin: auto;
+    padding: auto;
+  }
+
+  body{
+    width: 100%;}
+
+  header{
+    width: 100%;
+    height: 2.5em;
+    text-align: center;}
+
+  .botonmenu{
+    display: block;
+    margin-left: 87%;
+    margin-top: -5.4%;
+    color: greenyellow;
+  }
+  .nonavm{
+    display: none;
+  }
+
+  main{
+    padding: 4%;
+    margin: 1%; 
+    width: 88%;
+    height: 65em;
+    border: 5px solid rgb(0, 17, 255);
+    border-radius: 50px;
+  }
+
+  .ajuste{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .card{
+    margin-top: 0%;
+    margin-left:5%;
+  }
+
+  .card2{
+    margin-top:0;
+    margin-left: 15%;
+  }
+
+  .card3{
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .card4{
+    margin-top: 5%;
+    margin-left: 15%;
+  }
 
 }
 
@@ -286,8 +380,8 @@ main{
     width: 100%;
   }
   main{
-  padding: 4%;
-  margin: 1%; 
+  padding: 2%;
+  margin: 3%; 
   width: 88%;
   height: 125em;
   border: 5px solid rgb(0, 17, 255);
