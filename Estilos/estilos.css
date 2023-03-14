@@ -238,4 +238,8 @@ footer{
     margin-top: -11.3%;
     color: greenyellow;
   }
+  .darkmode{
+    position: fixed;
+    top: 7%;
+  }
 }

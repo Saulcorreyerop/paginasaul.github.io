@@ -247,4 +247,8 @@ footer{
   .nonavm{
     display: none;
 }
+.darkmode{
+  position: fixed;
+  top: 7%;
+}
 }
