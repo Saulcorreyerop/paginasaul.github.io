@@ -273,33 +273,33 @@ main{
 
   main{
     width: 88%;
-    height: 35.9em;
+    height: 25em;
     border: 5px solid rgb(0, 17, 255);
     border-radius: 50px;
   }
 
   .ajuste{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 
   .card{
-    margin-left: -2%;
+    margin-left: -15%;
   }
 
   .card2{
     margin-top: 0.1%;
-    margin-left: 25%;
+    margin-left: 1%;
   }
 
   .card3{
     margin-top: 0.1%;
-    margin-left: 55%;
+    margin-left: 10%;
   }
 
   .card4{
     margin-top: 0.1%;
-    margin-left: 90%;
+    margin-left: 5%;
   }
 }
 
