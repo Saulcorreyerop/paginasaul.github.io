@@ -226,11 +226,8 @@ footer{
   .mapa{
     display: flex;
     margin-top: 50%;
-}
-
-  iframe{
-    width: 24em;
-    height: 20em;
+    margin-left: 0;
+    width: 23.4em;
 }
 
   footer{
@@ -254,6 +251,7 @@ footer{
   .nonavm{
   display: none;
 }
+
   .darkmode{
   position: fixed;
   top: 7%;
