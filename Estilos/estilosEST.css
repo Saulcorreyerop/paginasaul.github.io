@@ -255,7 +255,7 @@ main{
   display: none;
 }
 /*Pantallas responsivas*/
-@media screen and (min-width: 912px){
+@media screen and (min-width: 912px){ /*Desktop*/
   *{
     margin: auto;
     padding: auto;
@@ -297,7 +297,7 @@ main{
   }
 }
 
-@media screen and (max-width: 912px){
+@media screen and (max-width: 912px){ /*Tablet*/
   *{
     margin: auto;
     padding: auto;

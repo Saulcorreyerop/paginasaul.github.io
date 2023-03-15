@@ -272,8 +272,7 @@ main{
     width: 100%;}
 
   main{
-    width: 88%;
-    height: 25em;
+    width: 90%;
     border: 5px solid rgb(0, 17, 255);
     border-radius: 50px;
   }
