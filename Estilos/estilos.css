@@ -19,6 +19,14 @@ header{
     color: white;
 }
 
+/*Estilo botón modo noche*/
+.darkmode{
+  font-size: 1.4em;
+  position: absolute;
+  bottom: 8%;
+  right: 2%;
+}
+
 /*Estilos del menú de Navegación*/
 .navbar {
   overflow: hidden;
